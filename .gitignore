@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# 数据文件（体积较大，不纳入版本控制）
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# 输出文件
+outputs/rfm_results.csv
+outputs/segment_revenue.csv
+outputs/funnel_analysis.csv
+outputs/monthly_sales.csv
+outputs/country_stats.csv
+outputs/top_products.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.DS_Store
